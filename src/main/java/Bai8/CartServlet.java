@@ -17,7 +17,7 @@ public class CartServlet extends HttpServlet {
         cartItems.add(new CartItem("Bánh",53000,7));
         cartItems.add(new CartItem("Trà Quất",15000,8));
         cartItems.add(new CartItem("Sữa",35000,3));
-        cartItems.add(new CartItem("Mì Tôm",8000,15));
+        cartItems.add(new CartItem("Mì Tômg",8000,15));
 
         request.setAttribute("cartItems", cartItems);
         double total = 0;
